@@ -22,4 +22,7 @@ app.UseAuthorization();
 
 app.MapControllers();
 
+//Configuración para la gestión del middleware de excepciones
+app.UseMiddleware<ExceptionMiddleware>();
+
 app.Run();
