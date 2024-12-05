@@ -1,0 +1,6 @@
+@Gametopia.Matchmaking_HostAddress = http://localhost:5038
+
+GET {{Gametopia.Matchmaking_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
